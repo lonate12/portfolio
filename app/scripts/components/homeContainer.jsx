@@ -3,7 +3,6 @@ var React = require('react');
 var Header = require('./presentation/header.jsx');
 var Footer = require('./presentation/footer.jsx');
 
-
 var HomeContainer = React.createClass({
   render: function(){
     return(

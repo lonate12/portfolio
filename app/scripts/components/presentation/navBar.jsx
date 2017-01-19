@@ -1,11 +1,6 @@
 var React = require('react');
 
 var NavBar = React.createClass({
-  getInitialState: function(){
-    return {
-      isFooter: false
-    }
-  },
   render: function(){
     return(
       <ul className={this.props.isFooter ? "list-inline" : null}>
