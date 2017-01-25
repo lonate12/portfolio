@@ -3,8 +3,8 @@ var React = require('react');
 var NavBar = React.createClass({
   render: function(){
     return(
-      <div className="row top-bar">
-        <img src="./images/lro-logo-white.svg" className="logo-small"></img>
+      <div className={this.props.isFooter? "footer-nav" : "row top-bar"}>
+        <img src="./images/lro-logo-white.svg" className={this.props.isFooter? "hide" : "logo-small"}></img>
         <ul className="top-bar-nav">
           <li className="normal-link"><a href="#">Home</a></li>
           <li className="normal-link"><a href="#about">About</a></li>
