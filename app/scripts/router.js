@@ -11,10 +11,10 @@ var ContactContainer = require('./components/contactContainer.jsx').ContactConta
 var AppRouter = Backbone.Router.extend({
   routes: {
     '': 'index',
-    'about/': 'about',
-    'development/': 'development',
-    'graphic-design/': 'graphicDesign',
-    'contact/': 'contact'
+    // 'about/': 'about',
+    // 'development/': 'development',
+    // 'graphic-design/': 'graphicDesign',
+    // 'contact/': 'contact'
   },
   index: function(){
     ReactDOM.render(
@@ -22,30 +22,30 @@ var AppRouter = Backbone.Router.extend({
       document.getElementById('app')
     );
   },
-  about: function(){
-    ReactDOM.render(
-      React.createElement(AboutContainer),
-      document.getElementById('app')
-    );
-  },
-  development: function(){
-    ReactDOM.render(
-      React.createElement(DevelopmentContainer),
-      document.getElementById('app')
-    );
-  },
-  graphicDesign: function(){
-    ReactDOM.render(
-      React.createElement(GraphicDesignContainer),
-      document.getElementById('app')
-    );
-  },
-  contact: function(){
-    ReactDOM.render(
-      React.createElement(ContactContainer),
-      document.getElementById('app')
-    );
-  }
+  // about: function(){
+  //   ReactDOM.render(
+  //     React.createElement(AboutContainer),
+  //     document.getElementById('app')
+  //   );
+  // },
+  // development: function(){
+  //   ReactDOM.render(
+  //     React.createElement(DevelopmentContainer),
+  //     document.getElementById('app')
+  //   );
+  // },
+  // graphicDesign: function(){
+  //   ReactDOM.render(
+  //     React.createElement(GraphicDesignContainer),
+  //     document.getElementById('app')
+  //   );
+  // },
+  // contact: function(){
+  //   ReactDOM.render(
+  //     React.createElement(ContactContainer),
+  //     document.getElementById('app')
+  //   );
+  // }
 });
 
 var router = new AppRouter();

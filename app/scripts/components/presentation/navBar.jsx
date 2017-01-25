@@ -3,13 +3,25 @@ var React = require('react');
 var NavBar = React.createClass({
   render: function(){
     return(
-      <ul className={this.props.isFooter ? "list-inline" : null}>
-        <li><a href="#">Home</a></li>
-        <li><a href="#/about/">About</a></li>
-        <li><a href="#/development/">Development</a></li>
-        <li><a href="#/graphic-design/">Graphic Design</a></li>
-        <li><a href="#/contact/">Contact</a></li>
-      </ul>
+      <div className="row top-bar">
+        <img src="./images/lro-logo-white.svg" className="logo-small"></img>
+        <ul className="top-bar-nav">
+          <li className="normal-link"><a href="#">Home</a></li>
+          <li className="normal-link"><a href="#about">About</a></li>
+          <li className="normal-link"><a href="#projects">Projects</a></li>
+          <li className="normal-link"><a href="#contact">Contact</a></li>
+          <li className="social-link">
+            <a target="_blank" href="https://www.linkedin.com/in/luisreneonate">
+              <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li className="social-link">
+            <a target="_blank" href="https://github.com/lonate12">
+              <i className="fa fa-github" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
     );
   }
 });
