@@ -27,9 +27,10 @@ ul {
 
   .main-img-container{
     min-height: calc(100vh - 82px);
-    background-image: url('https://unsplash.it/g/1170/513/?blur');
-    background-position: center center;
-    background-size: cover;
+    // background-image: url('https://unsplash.it/g/1170/513/?blur');
+    // background-position: center center;
+    // background-size: cover;
+    background-color: black;
   }
 
   .fa-chevron-down{
@@ -40,7 +41,7 @@ ul {
     width: 100%;
     text-align: center;
     color: white;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
   }
 
   .tagline{
