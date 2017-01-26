@@ -22,6 +22,11 @@ ul {
   margin: 0;
 }
 
+#app {
+  // Background pattern by Carlos Aguilar, found on https://subtlepatterns.com/page/3/
+  background-image: url('../images/footer_lodyas.png');
+}
+
 .banner{
   position: relative;
 
@@ -138,5 +143,16 @@ ul {
     height: 100%;
     padding-left: 10px;
     color: white;
+  }
+}
+
+#about{
+  background-image: url('../images/about.jpg');
+  background-size: cover;
+  background-position: top right;
+
+  .headshot {
+    width: 200px;
+    border-radius: 100px;
   }
 }
