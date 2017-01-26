@@ -2,6 +2,7 @@ var React = require('react');
 
 var NavBar = require('./presentation/navBar.jsx');
 var Footer = require('./presentation/footer.jsx');
+var AboutContainer = require('./aboutContainer.jsx').AboutContainer;
 
 var HomeContainer = React.createClass({
   render: function(){
@@ -15,7 +16,7 @@ var HomeContainer = React.createClass({
             <i className="chevron fa fa-chevron-down" aria-hidden="true"></i>
           </div>
         </header>
-        <div id="about" className="fs-container red row"></div>
+        <AboutContainer />
         <div id="projects" className="fs-container blue row"></div>
         <div id="contact" className="fs-container green row"></div>
         <Footer />

@@ -5,6 +5,7 @@ var NavBar = React.createClass({
     return(
       <div className={this.props.isFooter? "footer-nav" : "row top-bar"}>
         <img src="./images/lro-logo-white.svg" className={this.props.isFooter? "hide" : "logo-small"}></img>
+        <p className={this.props.isFooter? "copyright" : "hide"}>&copy; 2017 Luis Rene Onate</p>
         <ul className="top-bar-nav">
           <li className="normal-link"><a href="#">Home</a></li>
           <li className="normal-link"><a href="#about">About</a></li>
