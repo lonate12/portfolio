@@ -39,6 +39,19 @@ ul {
     left: 0;
     width: 100%;
     text-align: center;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .tagline{
+    color: white;
+    text-align: center;
+  }
+
+  .logo-large{
+    display: block;
+    margin: 0px auto;
+    padding-top: 20px;
   }
 }
 
@@ -72,4 +85,20 @@ ul {
   .top-bar-nav a{
     color: white;
   }
+}
+
+.fs-container{
+  height: 100vh;
+}
+
+.red{
+  background-color: red;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.green{
+  background-color: green;
 }
