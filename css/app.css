@@ -5771,6 +5771,9 @@ ul {
   padding: 0;
   margin: 0; }
 
+#app {
+  background-image: url("../images/footer_lodyas.png"); }
+
 .banner {
   position: relative; }
   .banner .main-img-container {
@@ -5874,5 +5877,13 @@ ul {
     height: 100%;
     padding-left: 10px;
     color: white; }
+
+#about {
+  background-image: url("../images/about.jpg");
+  background-size: cover;
+  background-position: top right; }
+  #about .headshot {
+    width: 200px;
+    border-radius: 100px; }
 
 /*# sourceMappingURL=app.css.map */
