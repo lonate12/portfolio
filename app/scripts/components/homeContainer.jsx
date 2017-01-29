@@ -8,7 +8,7 @@ var DevelopmentContainer = require('./developmentContainer.jsx').DevelopmentCont
 var HomeContainer = React.createClass({
   render: function(){
     return(
-      <div className="container" id="home">
+      <div className="container-fluid" id="home">
         <NavBar />
         <header className="banner row">
           <div className="main-img-container">
