@@ -22,6 +22,38 @@ ul {
   margin: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Istok Web', sans-serif;
+}
+
+p, a {
+  font-family: 'Lora', serif;
+}
+
+// Color Palette
+$grey: #44454A;
+$gold: #877350;
+$orange: #A25016;
+$white: #FFFFFF;
+$black: #000000;
+
+// Fonts
+// @font-face {
+//   font-family: 'Istok Web', sans-serif;
+//   name: 'Istok';
+// }
+//
+// @font-face {
+//   font-family: 'Lora', serif;
+//   name: 'Lora';
+// }
+
+// Custom helper classes
+
+.white {
+  color: $white;
+}
+
 #app {
   // Background pattern by Carlos Aguilar, found on https://subtlepatterns.com/page/3/
   background-image: url('../images/footer_lodyas.png');
@@ -35,7 +67,7 @@ ul {
     // background-image: url('https://unsplash.it/g/1170/513/?blur');
     // background-position: center center;
     // background-size: cover;
-    background-color: black;
+    background-color: $grey;
     height: 100%;
   }
 
@@ -46,23 +78,23 @@ ul {
     left: 0;
     width: 100%;
     text-align: center;
-    color: white;
+    color: $white;
   }
 
   .tagline{
-    color: white;
+    color: $orange;
     text-align: center;
   }
 
   .logo-large{
     display: block;
     margin: 0px auto;
-    padding-top: 20px;
+    padding-top: 60px;
   }
 }
 
 .top-bar{
-  background-color: black;
+  background-color: $black;
   position: relative;
 
   .logo-small{
@@ -95,10 +127,6 @@ ul {
 
 .fs-container{
   min-height: 100vh;
-}
-
-.red{
-  background-color: red;
 }
 
 .blue{
@@ -147,12 +175,38 @@ ul {
 }
 
 #about{
-  background-image: url('../images/about.jpg');
+  background-image: url('../images/about-bg.jpg');
   background-size: cover;
   background-position: top right;
 
   .headshot {
     width: 200px;
-    border-radius: 100px;
+    border: 8px solid white;
+    border-bottom: 40px solid white;
+    box-shadow: 0 3px 6px rgba(0,0,0,.5);
+    transform: rotate(-2deg);
+    display: block;
+    margin: 50px auto;
+  }
+
+  .headshot-div{
+    min-height: 100vh;
+    position: relative;
+  }
+
+  .tech-skills{
+    position: absolute;
+    bottom: 0;
+    height: 44%;
+    background-color: $orange;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+
+  .tech{
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Lora', serif;
   }
 }
