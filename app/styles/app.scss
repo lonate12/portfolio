@@ -54,6 +54,11 @@ $black: #000000;
   color: $white;
 }
 
+.max-height{
+  height: 100%;
+}
+// Web site styles
+
 #app {
   // Background pattern by Carlos Aguilar, found on https://subtlepatterns.com/page/3/
   background-image: url('../images/footer_lodyas.png');
@@ -67,7 +72,7 @@ $black: #000000;
     // background-image: url('https://unsplash.it/g/1170/513/?blur');
     // background-position: center center;
     // background-size: cover;
-    background-color: $grey;
+    // background-color: $grey;
     height: 100%;
   }
 
@@ -129,12 +134,16 @@ $black: #000000;
   min-height: 100vh;
 }
 
-.blue{
-  background-color: blue;
-}
-
 .green{
   background-color: green;
+}
+
+.red{
+  background-color: red;
+}
+
+.blue{
+  background-color: blue;
 }
 
 .footer-nav{
@@ -178,6 +187,7 @@ $black: #000000;
   background-image: url('../images/about-bg.jpg');
   background-size: cover;
   background-position: top right;
+  box-shadow: 0 3px 6px rgba(0,0,0,.5);
 
   .headshot {
     width: 200px;
@@ -209,4 +219,27 @@ $black: #000000;
     margin: 0 auto;
     font-family: 'Lora', serif;
   }
+}
+
+#projects{
+  .project-container{
+    height: calc(100vh * .3333333);
+    border: 1px solid white;
+    transition: all 0.2s ease-in-out 0s;
+  }
+
+  .project-description{
+    border: 1px solid orange;
+    height: 100%;
+  }
+
+  .project-image{
+    border: 1px solid red;
+    height: 100%;
+  }
+}
+
+.project-container:hover {
+  transform: scale(1.05);
+  z-index: 5;
 }
