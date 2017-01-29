@@ -7,6 +7,7 @@ var DevelopmentContainer = React.createClass({
   render: function(){
     return (
       <div id="projects" className="fs-container row">
+        <h1 className="text-center white">Projects I've worked on</h1>
         <div className="project-container col-md-12 green">
           <div className="row max-height">
             <div className="project-description col-md-6">Test1</div>

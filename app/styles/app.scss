@@ -237,9 +237,16 @@ $black: #000000;
     border: 1px solid red;
     height: 100%;
   }
+
+  .project-container:hover{
+    transform: scale(1.05);
+    height: 80vh;
+    z-index: 5;
+  }
 }
 
-.project-container:hover {
-  transform: scale(1.05);
-  z-index: 5;
-}
+// .project-container:hover {
+//   transform: scale(1.05);
+//   height: 80vh;
+//   z-index: 5;
+// }
