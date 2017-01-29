@@ -5887,7 +5887,8 @@ p, a {
             justify-content: center;
     height: 100%;
     padding-left: 10px;
-    color: white; }
+    color: white;
+    margin: 0px; }
 
 #about {
   background-image: url("../images/about-bg.jpg");
@@ -5895,7 +5896,7 @@ p, a {
   background-position: top right;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5); }
   #about .headshot {
-    width: 200px;
+    width: 260px;
     border: 8px solid white;
     border-bottom: 40px solid white;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
@@ -5925,15 +5926,15 @@ p, a {
   -webkit-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s; }
 #projects .project-description {
-  border: 1px solid orange;
+  height: 100%; }
+#projects .project-image-container {
   height: 100%; }
 #projects .project-image {
-  border: 1px solid red;
-  height: 100%; }
-
-.project-container:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  height: 80%;
+  background-image: url("../images/the-standings-example.jpg");
+  background-size: cover; }
+#projects .project-container:hover {
+  height: 80vh;
   z-index: 5; }
 
 /*# sourceMappingURL=app.css.map */
