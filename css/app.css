@@ -5771,6 +5771,18 @@ ul {
   padding: 0;
   margin: 0; }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Istok Web', sans-serif; }
+
+p, a {
+  font-family: 'Lora', serif; }
+
+.white {
+  color: #FFFFFF; }
+
+.max-height {
+  height: 100%; }
+
 #app {
   background-image: url("../images/footer_lodyas.png"); }
 
@@ -5778,7 +5790,6 @@ ul {
   position: relative; }
   .banner .main-img-container {
     min-height: calc(100vh - 82px);
-    background-color: black;
     height: 100%; }
   .banner .fa-chevron-down {
     font-size: 30px;
@@ -5787,17 +5798,17 @@ ul {
     left: 0;
     width: 100%;
     text-align: center;
-    color: white; }
+    color: #FFFFFF; }
   .banner .tagline {
-    color: white;
+    color: #A25016;
     text-align: center; }
   .banner .logo-large {
     display: block;
     margin: 0px auto;
-    padding-top: 20px; }
+    padding-top: 60px; }
 
 .top-bar {
-  background-color: black;
+  background-color: #000000;
   position: relative; }
   .top-bar .logo-small {
     width: 60px;
@@ -5828,14 +5839,14 @@ ul {
 .fs-container {
   min-height: 100vh; }
 
+.green {
+  background-color: green; }
+
 .red {
   background-color: red; }
 
 .blue {
   background-color: blue; }
-
-.green {
-  background-color: green; }
 
 .footer-nav {
   background-color: black;
@@ -5879,11 +5890,50 @@ ul {
     color: white; }
 
 #about {
-  background-image: url("../images/about.jpg");
+  background-image: url("../images/about-bg.jpg");
   background-size: cover;
-  background-position: top right; }
+  background-position: top right;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5); }
   #about .headshot {
     width: 200px;
-    border-radius: 100px; }
+    border: 8px solid white;
+    border-bottom: 40px solid white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+    display: block;
+    margin: 50px auto; }
+  #about .headshot-div {
+    min-height: 100vh;
+    position: relative; }
+  #about .tech-skills {
+    position: absolute;
+    bottom: 0;
+    height: 44%;
+    background-color: #A25016;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px; }
+  #about .tech {
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Lora', serif; }
+
+#projects .project-container {
+  height: calc(100vh * .3333333);
+  border: 1px solid white;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s; }
+#projects .project-description {
+  border: 1px solid orange;
+  height: 100%; }
+#projects .project-image {
+  border: 1px solid red;
+  height: 100%; }
+
+.project-container:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  z-index: 5; }
 
 /*# sourceMappingURL=app.css.map */
