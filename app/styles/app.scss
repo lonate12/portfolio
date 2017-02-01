@@ -248,3 +248,12 @@ $black: #000000;
     z-index: 5;
   }
 }
+
+#contact{
+  .contact-picture{
+    background-image: url("../images/contact.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+  }
+}

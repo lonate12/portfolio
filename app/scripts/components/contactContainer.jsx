@@ -1,15 +1,16 @@
 var React = require('react');
 
-var Header = require('./presentation/header.jsx');
-var Footer = require('./presentation/footer.jsx');
-
 var ContactContainer = React.createClass({
   render: function(){
     return (
-      <div className = "container">
-        <h1>Contact</h1>
-        <Header />
-        <Footer />
+      <div id="contact" className = "fs-container">
+        <div className="col-md-6">
+          <h1 className="text-center white">Contact</h1>
+          <h4 className="text-center white">
+            <a href="mailto:">luisreneonate@gmail.com</a>
+          </h4>
+        </div>
+        <div className="col-md-6 contact-picture"></div>
       </div>
     );
   }

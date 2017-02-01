@@ -4,6 +4,7 @@ var NavBar = require('./presentation/navBar.jsx');
 var Footer = require('./presentation/footer.jsx');
 var AboutContainer = require('./aboutContainer.jsx').AboutContainer;
 var DevelopmentContainer = require('./developmentContainer.jsx').DevelopmentContainer;
+var ContactContainer = require('./contactContainer.jsx').ContactContainer;
 
 var HomeContainer = React.createClass({
   render: function(){
@@ -19,7 +20,7 @@ var HomeContainer = React.createClass({
         </header>
         <AboutContainer />
         <DevelopmentContainer />
-        <div id="contact" className="fs-container green row"></div>
+        <ContactContainer />
         <Footer />
       </div>
     );
