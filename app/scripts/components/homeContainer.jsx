@@ -6,6 +6,7 @@ var AboutContainer = require('./aboutContainer.jsx').AboutContainer;
 var DevelopmentContainer = require('./developmentContainer.jsx').DevelopmentContainer;
 var ContactContainer1 = require('./contactContainer.jsx').ContactContainer1;
 var ContactContainer2 = require('./contactContainer2.jsx').ContactContainer2;
+var ContactContainer3 = require('./contactContainer3.jsx').ContactContainer3;
 
 var HomeContainer = React.createClass({
   render: function(){
@@ -23,6 +24,7 @@ var HomeContainer = React.createClass({
         <DevelopmentContainer />
         <ContactContainer1 />
         <ContactContainer2 />
+        <ContactContainer3 />
         <Footer />
       </div>
     );
