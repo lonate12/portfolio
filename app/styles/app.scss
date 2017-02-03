@@ -211,7 +211,62 @@ $black: #000000;
 }
 
 #projects{
+  .project-image-container{
+    min-height: 100vh;
+    background-image: url('../images/project-image-example.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
 
+  .project-description-container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .project{
+    height: (100vh * .3);
+  }
+
+  .project-thumbnail{
+    height: 100%;
+  }
+
+  .project-description{
+    height: 100%;
+    overflow: scroll;
+    background-color: white;
+  }
+
+  .btn-success{
+    background-color: rgba(0,0,0,0);
+    border: 3px solid $orange;
+    margin-bottom: 20px;
+    color: inherit;
+  }
+
+  .btn-success:hover{
+    background-color: $orange;
+    color: $white;
+  }
+
+  .github-replica-thumbnail{
+    background-image: url('../images/github-screenshot.png');
+    background-size: cover;
+  }
+
+  .star-wars-wg-thumbnail{
+    background-image: url('../images/star-wars-screenshot.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .the-standings-thumbnail{
+    background-image: url('../images/the-standings-screenshot.png');
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 #contact{
