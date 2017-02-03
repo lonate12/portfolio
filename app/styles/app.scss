@@ -251,15 +251,17 @@ $black: #000000;
     color: $white;
   }
 
+  .star-wars-wg-thumbnail{
+    background-image: url('../images/star-wars-screenshot.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: $black;
+  }
+
   .github-replica-thumbnail{
     background-image: url('../images/github-screenshot.png');
     background-size: cover;
-  }
-
-  .star-wars-wg-thumbnail{
-    background-image: url('../images/star-wars-screenshot.png');
-    background-size: cover;
-    background-position: center;
   }
 
   .the-standings-thumbnail{
