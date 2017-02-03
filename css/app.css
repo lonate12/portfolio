@@ -5839,15 +5839,6 @@ p, a {
 .fs-container {
   min-height: 100vh; }
 
-.green {
-  background-color: green; }
-
-.red {
-  background-color: red; }
-
-.blue {
-  background-color: blue; }
-
 .footer-nav {
   background-color: black;
   position: relative;
@@ -5920,21 +5911,74 @@ p, a {
     margin: 0 auto;
     font-family: 'Lora', serif; }
 
-#projects .project-container {
-  height: calc(100vh * .3333333);
-  border: 1px solid white;
-  -webkit-transition: all 0.2s ease-in-out 0s;
-  transition: all 0.2s ease-in-out 0s; }
-#projects .project-description {
-  height: 100%; }
 #projects .project-image-container {
+  min-height: 100vh;
+  background-image: url("../images/project-image-example.jpg");
+  background-size: cover;
+  background-position: center center; }
+#projects .project-description-container {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+#projects .project {
+  height: 30vh; }
+#projects .project-thumbnail {
   height: 100%; }
-#projects .project-image {
-  height: 80%;
-  background-image: url("../images/the-standings-example.jpg");
+#projects .project-description {
+  height: 100%;
+  overflow: scroll;
+  background-color: white; }
+#projects .btn-success {
+  background-color: transparent;
+  border: 3px solid #A25016;
+  margin-bottom: 20px;
+  color: inherit; }
+#projects .btn-success:hover {
+  background-color: #A25016;
+  color: #FFFFFF; }
+#projects .star-wars-wg-thumbnail {
+  background-image: url("../images/star-wars-screenshot.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #000000; }
+#projects .github-replica-thumbnail {
+  background-image: url("../images/github-screenshot.png");
   background-size: cover; }
-#projects .project-container:hover {
-  height: 80vh;
-  z-index: 5; }
+#projects .the-standings-thumbnail {
+  background-image: url("../images/the-standings-screenshot.png");
+  background-size: cover;
+  background-position: center; }
+
+#contact {
+  min-height: calc(100vh - 50px); }
+  #contact .contact-header {
+    margin-bottom: 20vh; }
+  #contact .fa {
+    font-size: 40px;
+    color: white;
+    padding: 30px;
+    background-color: #A25016;
+    border-radius: 100px;
+    -webkit-transition: all .25s ease-out;
+    transition: all .25s ease-out; }
+  #contact .fa:hover {
+    padding: 40px;
+    font-size: 50px; }
+
+.contact-picture-2 {
+  text-align: center;
+  border-radius: 200px; }
+
+.contact-picture-3 {
+  height: 50vh; }
 
 /*# sourceMappingURL=app.css.map */
