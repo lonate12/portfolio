@@ -1,34 +1,35 @@
 var React = require('react');
+var CubeLink = require('./presentation/cubeLink.jsx');
 
 var ContactContainer3 = React.createClass({
   render: function(){
     return (
-      <div id="contact" className = "fs-container">
-        <div className="row contact-picture-3">
-          <h1 className="white text-center">Contact</h1>
-        </div>
+      <div id="contact">
         <div className="row">
+          <h1 className="contact-header white text-center">Contact</h1>
           <div className="col-md-4">
+            <a className="contact-link" href="mailto:luisreneonate@gmail.com">
+              <div className="contact-icon text-center">
+                <i className="fa fa-envelope-o" aria-hidden="true"></i>
+              </div>
+            </a>
             <h2 className="text-center white">Email</h2>
-            <h3 className="text-center">
-              <a href="mailto:luisreneonate@gmail.com">luisreneonate@gmail.com</a>
-            </h3>
           </div>
           <div className="col-md-4">
+            <a className="contact-link" href="https://www.linkedin.com/in/luisreneonate" target="_blank">
+              <div className="contact-icon text-center">
+                <i className="fa fa-linkedin" aria-hidden="true"></i>
+              </div>
+            </a>
             <h2 className="text-center white">LinkedIn</h2>
-            <h3 className="text-center">
-              <a href="https://linkedin.com/en/luisreneonate">
-                Click Here
-              </a>
-            </h3>
           </div>
           <div className="col-md-4">
+            <a className="contact-link" href="https://github.com/lonate12" target="_blank">
+              <div className="contact-icon text-center">
+                <i className="fa fa-github" aria-hidden="true"></i>
+              </div>
+            </a>
             <h2 className="text-center white">GitHub</h2>
-            <h3 className="text-center">
-              <a href="https://github.io/lonate12">
-                Click there
-              </a>
-            </h3>
           </div>
         </div>
       </div>

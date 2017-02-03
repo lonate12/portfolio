@@ -134,18 +134,6 @@ $black: #000000;
   min-height: 100vh;
 }
 
-.green{
-  background-color: green;
-}
-
-.red{
-  background-color: red;
-}
-
-.blue{
-  background-color: blue;
-}
-
 .footer-nav{
   background-color: black;
   position: relative;
@@ -223,38 +211,29 @@ $black: #000000;
 }
 
 #projects{
-  .project-container{
-    height: calc(100vh * .3333333);
-    border: 1px solid white;
-    transition: all 0.2s ease-in-out 0s;
-  }
 
-  .project-description{
-    height: 100%;
-  }
-
-  .project-image-container{
-    height: 100%;
-  }
-
-  .project-image{
-    height: 80%;
-    background-image: url('../images/the-standings-example.jpg');
-    background-size: cover;
-  }
-
-  .project-container:hover{
-    height: 80vh;
-    z-index: 5;
-  }
 }
 
 #contact{
-  .contact-picture{
-    background-image: url("../images/contact.jpg");
-    background-size: cover;
-    background-position: center center;
-    min-height: 100vh;
+  min-height: calc(100vh - 50px);
+
+
+  .contact-header{
+    margin-bottom: 20vh;
+  }
+
+  .fa{
+    font-size: 40px;
+    color: white;
+    padding: 30px;
+    background-color: $orange;
+    border-radius: 100px;
+    transition: all .25s ease-out;
+  }
+
+  .fa:hover{
+    padding: 40px;
+    font-size: 50px;
   }
 }
 
