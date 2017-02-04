@@ -5885,7 +5885,8 @@ p, a {
   background-image: url("../images/about-bg.jpg");
   background-size: cover;
   background-position: top right;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5); }
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px; }
   #about .headshot {
     width: 260px;
     border: 8px solid white;
@@ -5900,107 +5901,123 @@ p, a {
     position: relative; }
   #about .tech-skills {
     position: absolute;
-    bottom: 0;
-    height: 44%;
+    bottom: 10px;
+    height: 40%;
     background-color: #A25016;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px; }
-  #about .tech {
-    width: 50px;
-    display: block;
-    margin: 0 auto;
-    font-family: 'Lora', serif; }
+    border-radius: 12px; }
+  #about .tech-toolbox-header {
+    border-bottom: 2px solid #FFFFFF; }
+  #about .tech-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%; }
+  #about .tech-tool {
+    width: 33%;
+    color: #FFFFFF;
+    font-family: 'Lora', serif;
+    text-align: center; }
 
-#projects .project-image-container {
-  min-height: 100vh;
-  background-image: url("../images/project-image-example.jpg");
-  background-size: cover;
-  background-position: center center; }
-#projects .projects-header {
-  font-size: 60px; }
-#projects .projects-header:first-child {
-  margin-top: 40vh; }
-#projects .project-description-container {
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
-#projects .project {
-  height: 30vh; }
-#projects .project-thumbnail {
-  height: 100%; }
-#projects .project-description {
-  height: 100%;
-  overflow-y: scroll;
-  background-color: white; }
-#projects .star-wars {
-  -webkit-transition: all .1s ease-in;
-  transition: all .1s ease-in;
-  -webkit-transform-origin: top right;
-          transform-origin: top right; }
-#projects .github {
-  -webkit-transition: all .1s ease-in;
-  transition: all .1s ease-in;
-  -webkit-transform-origin: center right;
-          transform-origin: center right; }
-#projects .the-standings {
-  -webkit-transition: all .1s ease-in;
-  transition: all .1s ease-in;
-  -webkit-transform-origin: bottom right;
-          transform-origin: bottom right; }
-#projects .project-description:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-  z-index: 5;
-  border: 1px solid #44454A; }
-#projects .btn-success {
-  background-color: transparent;
-  border: 3px solid #A25016;
-  margin-bottom: 20px;
-  color: inherit;
-  padding: 6px; }
-#projects .btn-success:hover {
-  background-color: #A25016;
-  color: #FFFFFF; }
-#projects .star-wars-wg-thumbnail {
-  background-image: url("../images/star-wars-screenshot.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #000000; }
-#projects .github-replica-thumbnail {
-  background-image: url("../images/github-screenshot.png");
-  background-size: cover; }
-#projects .the-standings-thumbnail {
-  background-image: url("../images/the-standings-screenshot.png");
-  background-size: cover;
-  background-position: center; }
-#projects .tech-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  height: auto; }
-#projects .tech {
-  width: 33.33%;
-  text-align: center; }
-#projects .technologies-used {
-  padding-top: 20px;
-  padding-bottom: 10px;
-  border-bottom: 2px solid #44454A; }
+#projects {
+  padding-bottom: 30px; }
+  #projects .project-image-container {
+    min-height: 100vh;
+    background-image: url("../images/project-image-example.jpg");
+    background-size: cover;
+    background-position: center center; }
+  #projects .projects-header {
+    font-size: 60px; }
+  #projects .projects-header:first-child {
+    margin-top: 40vh; }
+  #projects .project-description-container {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  #projects .project {
+    height: 30vh; }
+  #projects .project-thumbnail {
+    height: 100%; }
+  #projects .project-description {
+    height: 100%;
+    overflow-y: scroll;
+    background-color: white; }
+  #projects .star-wars {
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+    -webkit-transform-origin: top right;
+            transform-origin: top right; }
+  #projects .github {
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+    -webkit-transform-origin: center right;
+            transform-origin: center right; }
+  #projects .the-standings {
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+    -webkit-transform-origin: bottom right;
+            transform-origin: bottom right; }
+  #projects .project:hover {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+    z-index: 5;
+    border: 3px solid #A25016;
+    border-radius: 6px;
+    padding: 0; }
+  #projects .btn-success {
+    background-color: transparent;
+    border: 3px solid #A25016;
+    margin-bottom: 20px;
+    color: inherit;
+    padding: 6px; }
+  #projects .btn-success:hover {
+    background-color: #A25016;
+    color: #FFFFFF; }
+  #projects .star-wars-wg-thumbnail {
+    background-image: url("../images/star-wars-screenshot.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000000; }
+  #projects .github-replica-thumbnail {
+    background-image: url("../images/github-screenshot.png");
+    background-size: cover; }
+  #projects .the-standings-thumbnail {
+    background-image: url("../images/the-standings-screenshot.png");
+    background-size: cover;
+    background-position: center; }
+  #projects .tech-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: auto; }
+  #projects .tech {
+    width: 33.33%;
+    text-align: center; }
+  #projects .technologies-used {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #44454A; }
 
 #contact {
   min-height: calc(100vh - 50px); }
+  #contact .row {
+    background-image: url("../images/beach.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 50px); }
   #contact .contact-header {
-    margin-bottom: 20vh; }
+    margin: 10vh 0 20vh 0;
+    font-size: 60px; }
   #contact .fa {
     font-size: 40px;
     color: white;
