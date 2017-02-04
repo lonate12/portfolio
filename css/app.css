@@ -5889,7 +5889,7 @@ p, a {
   #about .headshot {
     width: 260px;
     border: 8px solid white;
-    border-bottom: 40px solid white;
+    border-bottom: 60px solid white;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
     -webkit-transform: rotate(-2deg);
             transform: rotate(-2deg);
@@ -5916,6 +5916,10 @@ p, a {
   background-image: url("../images/project-image-example.jpg");
   background-size: cover;
   background-position: center center; }
+#projects .projects-header {
+  font-size: 60px; }
+#projects .projects-header:first-child {
+  margin-top: 40vh; }
 #projects .project-description-container {
   min-height: 100vh;
   display: -webkit-box;
@@ -5934,13 +5938,34 @@ p, a {
   height: 100%; }
 #projects .project-description {
   height: 100%;
-  overflow: scroll;
+  overflow-y: scroll;
   background-color: white; }
+#projects .star-wars {
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+  -webkit-transform-origin: top right;
+          transform-origin: top right; }
+#projects .github {
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+  -webkit-transform-origin: center right;
+          transform-origin: center right; }
+#projects .the-standings {
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right; }
+#projects .project-description:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  z-index: 5;
+  border: 1px solid #44454A; }
 #projects .btn-success {
   background-color: transparent;
   border: 3px solid #A25016;
   margin-bottom: 20px;
-  color: inherit; }
+  color: inherit;
+  padding: 6px; }
 #projects .btn-success:hover {
   background-color: #A25016;
   color: #FFFFFF; }
@@ -5957,6 +5982,20 @@ p, a {
   background-image: url("../images/the-standings-screenshot.png");
   background-size: cover;
   background-position: center; }
+#projects .tech-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: auto; }
+#projects .tech {
+  width: 33.33%;
+  text-align: center; }
+#projects .technologies-used {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #44454A; }
 
 #contact {
   min-height: calc(100vh - 50px); }
