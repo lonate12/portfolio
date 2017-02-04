@@ -181,7 +181,7 @@ $black: #000000;
   .headshot {
     width: 260px;
     border: 8px solid white;
-    border-bottom: 40px solid white;
+    border-bottom: 60px solid white;
     box-shadow: 0 3px 6px rgba(0,0,0,.5);
     transform: rotate(-2deg);
     display: block;
@@ -218,6 +218,14 @@ $black: #000000;
     background-position: center center;
   }
 
+  .projects-header{
+    font-size: 60px;
+  }
+
+  .projects-header:first-child{
+    margin-top: 40vh;
+  }
+
   .project-description-container{
     min-height: 100vh;
     display: flex;
@@ -235,8 +243,29 @@ $black: #000000;
 
   .project-description{
     height: 100%;
-    overflow: scroll;
+    overflow-y: scroll;
     background-color: white;
+  }
+
+  .star-wars{
+    transition: all .1s ease-in;
+    transform-origin: top right;
+  }
+
+  .github{
+    transition: all .1s ease-in;
+    transform-origin: center right;
+  }
+
+  .the-standings{
+    transition: all .1s ease-in;
+    transform-origin: bottom right;
+  }
+
+  .project-description:hover{
+    transform: scale(1.5);
+    z-index: 5;
+    border: 1px solid $grey;
   }
 
   .btn-success{
@@ -244,6 +273,7 @@ $black: #000000;
     border: 3px solid $orange;
     margin-bottom: 20px;
     color: inherit;
+    padding: 6px;
   }
 
   .btn-success:hover{
@@ -268,6 +298,24 @@ $black: #000000;
     background-image: url('../images/the-standings-screenshot.png');
     background-size: cover;
     background-position: center;
+  }
+
+  .tech-div{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .tech{
+    width: 33.33%;
+    text-align: center;
+    // flex: 1;
+  }
+
+  .technologies-used{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid $grey;
   }
 }
 
