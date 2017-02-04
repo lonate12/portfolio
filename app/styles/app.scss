@@ -177,6 +177,7 @@ $black: #000000;
   background-size: cover;
   background-position: top right;
   box-shadow: 0 3px 6px rgba(0,0,0,.5);
+  margin-bottom: 30px;
 
   .headshot {
     width: 260px;
@@ -195,22 +196,34 @@ $black: #000000;
 
   .tech-skills{
     position: absolute;
-    bottom: 0;
-    height: 44%;
+    bottom: 10px;
+    height: 40%;
     background-color: $orange;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+    // border-top-left-radius: 12px;
+    // border-top-right-radius: 12px;
+    border-radius: 12px;
   }
 
-  .tech{
-    width: 50px;
-    display: block;
-    margin: 0 auto;
+  .tech-toolbox-header{
+    border-bottom: 2px solid $white;
+  }
+
+  .tech-list{
+    display: flex;
+    width: 100%;
+  }
+
+  .tech-tool{
+    width: 33%;
+    color: $white;
     font-family: 'Lora', serif;
+    text-align: center;
   }
 }
 
 #projects{
+  padding-bottom: 30px;
+
   .project-image-container{
     min-height: 100vh;
     background-image: url('../images/project-image-example.jpg');
@@ -244,6 +257,9 @@ $black: #000000;
   .project-description{
     height: 100%;
     overflow-y: scroll;
+    // overflow: clip;
+    // white-space: nowrap;
+    // text-overflow: ellipsis;
     background-color: white;
   }
 
@@ -262,10 +278,12 @@ $black: #000000;
     transform-origin: bottom right;
   }
 
-  .project-description:hover{
+  .project:hover{
     transform: scale(1.5);
     z-index: 5;
-    border: 1px solid $grey;
+    border: 3px solid $orange;
+    border-radius: 6px;
+    padding: 0;
   }
 
   .btn-success{
@@ -322,9 +340,16 @@ $black: #000000;
 #contact{
   min-height: calc(100vh - 50px);
 
+  .row{
+    background-image: url('../images/beach.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 50px);
+  }
 
   .contact-header{
-    margin-bottom: 20vh;
+    margin: 10vh 0 20vh 0;
+    font-size: 60px;
   }
 
   .fa{

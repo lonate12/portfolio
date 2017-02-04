@@ -7,24 +7,11 @@ var AboutContainer = React.createClass({
         <div className="col-md-6 headshot-div">
           <img className="headshot" src="images/headshot.jpg"></img>
           <div className="tech-skills col-md-10 col-md-offset-1">
-            <h3 className="text-center white">Technologies I know...</h3>
+            <h3 className="text-center tech-toolbox-header white">Technical Toolbox</h3>
             <div className=" tech-list col-md-6">
-              <h4 className="text-center white">Languages</h4>
-              <ul>
-                <li className="text-center white">HTML 5</li>
-                <li className="text-center white">CSS 3</li>
-                <li className="text-center white">JavaScript</li>
-              </ul>
-            </div>
-            <div className="tech-list col-md-6">
-              <h4 className="text-center white">Libraries</h4>
-              <ul>
-                <li className="text-center white">jQuery</li>
-                <li className="text-center white">Backbone.js</li>
-                <li className="text-center white">React.js</li>
-                <li className="text-center white">Bootstrap</li>
-                <li className="text-center white">SCSS</li>
-              </ul>
+              <div className="tech-tool">HTML5</div>
+              <div className="tech-tool">CSS3</div>
+              <div className="tech-tool">JavaScript</div>
             </div>
           </div>
         </div>
