@@ -6106,6 +6106,8 @@ p, a {
     padding-top: 82px; }
     #contact .contact-header {
       margin-bottom: 10vh; }
+    #contact .email {
+      word-wrap: break-word; }
 
   .copyright {
     display: block;
@@ -6114,4 +6116,5 @@ p, a {
 
   .footer-nav .top-bar-nav {
     display: none; } }
+
 /*# sourceMappingURL=app.css.map */
