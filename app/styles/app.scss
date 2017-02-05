@@ -101,7 +101,7 @@ $black: #000000;
 .top-bar{
   background-color: $black;
   position: relative;
-  height: 60px;
+  height: 80px;
 
   .logo-small{
     width: 60px;
@@ -225,6 +225,10 @@ $black: #000000;
 #projects{
   padding-bottom: 30px;
 
+  .btn{
+    white-space: normal;
+  }
+
   .project-image-container{
     min-height: 100vh;
     background-image: url('../images/project-image-example.jpg');
@@ -237,7 +241,7 @@ $black: #000000;
   }
 
   .projects-header:first-child{
-    margin-top: 40vh;
+    padding-top: 40vh;
   }
 
   .project-description-container{
@@ -398,6 +402,10 @@ $black: #000000;
   }
 
   #projects{
+    .project-image-container{
+      margin-bottom: 30px;
+    }
+
     .project-description-container{
       display: block;
     }
@@ -431,5 +439,19 @@ $black: #000000;
 
   #contact{
     min-height: calc(-50px);
+
+    .contact-header{
+      margin-bottom: 10vh;
+    }
+  }
+
+  .copyright{
+    display: block;
+    text-align: center;
+    padding: 0;
+  }
+
+  .footer-nav .top-bar-nav{
+    display: none;
   }
 }
