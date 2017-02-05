@@ -4,9 +4,9 @@ var AboutContainer = React.createClass({
   render: function(){
     return (
       <div id="about" className="fs-container red row">
-        <div className="col-md-6 headshot-div">
+        <div className="col-xs-12 col-md-6 headshot-div">
           <img className="headshot" src="images/headshot.jpg"></img>
-          <div className="tech-skills col-md-10 col-md-offset-1">
+          <div className="tech-skills col-xs-12 col-md-10 col-md-offset-1">
             <h3 className="text-center tech-toolbox-header white">Technical Toolbox</h3>
             <div className=" tech-list col-md-6">
               <div className="tech-tool">HTML5</div>

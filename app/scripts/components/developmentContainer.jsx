@@ -50,8 +50,8 @@ var DevelopmentContainer = React.createClass({
               <div className="tech-div">
                 {techsStarWars}
               </div>
-              <a className="col-md-4 col-md-offset-1 btn btn-success" href="">Source Code</a>
-              <a className="col-md-4 col-md-offset-2 btn btn-success" href="">Live Project</a>
+              <a className="col-xs-4 col-xs-offset-1 btn btn-success" href="">Source Code</a>
+              <a className="col-xs-4 col-xs-offset-2 btn btn-success" href="">Live Project</a>
             </div>
           </div>
           <div className="col-md-12 project github">
@@ -64,8 +64,8 @@ var DevelopmentContainer = React.createClass({
               <div className="tech-div">
                 {techsGitHub}
               </div>
-              <a className="col-md-4 col-md-offset-1 btn btn-success" href="">Source Code</a>
-              <a className="col-md-4 col-md-offset-2 btn btn-success" href="">Live Project</a>
+              <a className="col-xs-4 col-xs-offset-1 btn btn-success" href="">Source Code</a>
+              <a className="col-xs-4 col-xs-offset-2 btn btn-success" href="">Live Project</a>
             </div>
           </div>
           <div className="col-md-12 project the-standings">
@@ -79,8 +79,8 @@ var DevelopmentContainer = React.createClass({
               <div className="tech-div">
                 {techsTheStandings}
               </div>
-              <a className="col-md-4 col-md-offset-1 btn btn-success" href="">Source Code</a>
-              <a className="col-md-4 col-md-offset-2 btn btn-success" href="">Live Project</a>
+              <a className="col-xs-4 col-xs-offset-1 btn btn-success" href="">Source Code</a>
+              <a className="col-xs-4 col-xs-offset-2 btn btn-success" href="">Live Project</a>
             </div>
           </div>
         </div>
