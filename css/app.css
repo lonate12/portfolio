@@ -5810,7 +5810,7 @@ p, a {
 .top-bar {
   background-color: #000000;
   position: relative;
-  height: 60px; }
+  height: 80px; }
   .top-bar .logo-small {
     width: 60px;
     margin: 10px 10px 10px 20px; }
@@ -5921,6 +5921,8 @@ p, a {
 
 #projects {
   padding-bottom: 30px; }
+  #projects .btn {
+    white-space: normal; }
   #projects .project-image-container {
     min-height: 100vh;
     background-image: url("../images/project-image-example.jpg");
@@ -5929,7 +5931,7 @@ p, a {
   #projects .projects-header {
     font-size: 60px; }
   #projects .projects-header:first-child {
-    margin-top: 40vh; }
+    padding-top: 40vh; }
   #projects .project-description-container {
     min-height: 100vh;
     display: -webkit-box;
@@ -6009,12 +6011,10 @@ p, a {
     border-bottom: 2px solid #44454A; }
 
 #contact {
-  min-height: calc(100vh - 50px); }
-  #contact .row {
-    background-image: url("../images/the-babies.jpg");
-    background-size: cover;
-    box-shadow: 0 -3px 8px rgba(0, 0, 0, 0.5);
-    height: calc(100vh - 50px); }
+  min-height: calc(100vh - 50px);
+  background-image: url("../images/the-babies.jpg");
+  background-size: cover;
+  box-shadow: 0 -3px 8px rgba(0, 0, 0, 0.5); }
   #contact .contact-header {
     margin: 10vh 0 20vh 0;
     font-size: 60px; }
@@ -6056,8 +6056,12 @@ p, a {
     padding-bottom: 30px;
     margin-bottom: 30px; }
 
+  #projects .project-image-container {
+    margin-bottom: 30px; }
   #projects .project-description-container {
     display: block; }
+  #projects .btn {
+    white-space: normal; }
   #projects .project {
     height: auto;
     -webkit-transition: none;
@@ -6071,6 +6075,21 @@ p, a {
     padding-right: 15px; }
   #projects .project-thumbnail {
     height: 30vh;
-    border-bottom: 1px solid #44454A; } }
+    border-bottom: 1px solid #44454A; }
+  #projects .tech-div {
+    margin-bottom: 10px; }
+
+  #contact {
+    min-height: calc(-50px); }
+    #contact .contact-header {
+      margin-bottom: 10vh; }
+
+  .copyright {
+    display: block;
+    text-align: center;
+    padding: 0; }
+
+  .footer-nav .top-bar-nav {
+    display: none; } }
 
 /*# sourceMappingURL=app.css.map */
