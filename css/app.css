@@ -5800,8 +5800,11 @@ p, a {
     text-align: center;
     color: #FFFFFF; }
   .banner .tagline {
-    color: #A25016;
-    text-align: center; }
+    color: #a45116;
+    text-align: center;
+    font-size: 3em;
+    padding: 10px 20px;
+    font-family: 'Sahitya', 'serif'; }
   .banner .logo-large {
     display: block;
     margin: 0px auto;
@@ -5810,7 +5813,7 @@ p, a {
 .top-bar {
   background-color: #000000;
   position: relative;
-  height: 80px; }
+  height: 82px; }
   .top-bar .logo-small {
     width: 60px;
     margin: 10px 10px 10px 20px; }
@@ -5903,7 +5906,7 @@ p, a {
   #about .tech-skills {
     position: absolute;
     bottom: 10px;
-    height: 40%;
+    min-height: 30%;
     background-color: #A25016;
     border-radius: 12px; }
   #about .tech-toolbox-header {
@@ -5912,6 +5915,8 @@ p, a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     width: 100%; }
   #about .tech-tool {
     width: 33%;
@@ -5951,7 +5956,12 @@ p, a {
   #projects .project-description {
     height: 100%;
     overflow-y: scroll;
-    background-color: white; }
+    background-color: white;
+    position: relative; }
+  #projects .fa {
+    position: absolute;
+    bottom: 2px;
+    right: 2px; }
   #projects .star-wars {
     -webkit-transition: all .1s ease-in;
     transition: all .1s ease-in;
@@ -5968,8 +5978,8 @@ p, a {
     -webkit-transform-origin: bottom right;
             transform-origin: bottom right; }
   #projects .project:hover {
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+    -webkit-transform: scale(1.8);
+            transform: scale(1.8);
     z-index: 5;
     border: 3px solid #A25016;
     border-radius: 6px;
@@ -6051,11 +6061,21 @@ p, a {
     padding: 0 12px;
     width: 100%; }
 
-  #about .tech-skills {
-    position: static;
-    padding-bottom: 30px;
-    margin-bottom: 30px; }
+  #about {
+    padding-top: 82px; }
+    #about .tech-skills {
+      position: static;
+      padding-bottom: 30px;
+      margin-bottom: 30px; }
+    #about .tech-tool {
+      width: 50%;
+      padding: 5px 0;
+      font-weight: bold;
+      font-size: 1.2em;
+      font-family: 'Sahitya', 'serif'; }
 
+  #projects .fa {
+    display: none; }
   #projects .project-image-container {
     margin-bottom: 30px; }
   #projects .project-description-container {
@@ -6078,9 +6098,12 @@ p, a {
     border-bottom: 1px solid #44454A; }
   #projects .tech-div {
     margin-bottom: 10px; }
+  #projects .tech {
+    width: 50%; }
 
   #contact {
-    min-height: calc(-50px); }
+    min-height: calc(-50px);
+    padding-top: 82px; }
     #contact .contact-header {
       margin-bottom: 10vh; }
 
