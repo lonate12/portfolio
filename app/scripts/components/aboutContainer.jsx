@@ -25,34 +25,41 @@ var AboutContainer = React.createClass({
           </div>
         </div>
         <div className="col-md-6">
-          <h1 className="white">There was once a guy who wasn't happy with what he was doing...</h1>
+          <h1 className="white">There was once a guy who wasn't happy with what he was doing&hellip;</h1>
           <p className="white">
-            One day I was in english class and we were told to download SeaMonkey and use it to
-            create a portfolio site. After Googling for help with this I learned that I could customize
-            my site by putting symbols and letters together. It was pretty
-            amazing to see something happen when I put together the right combination of keystrokes!
-            My eyes got wide with wonder...I felt really good about what I had created and I
-            wanted to show it off. After that I didn’t code for 11 years.
+            The beginning&hellip; One day in my college English class I downloaded
+            SeaMonkey to create a portfolio site. After using Google to help
+            learn this application, I learned that I could customize my site by
+            simply putting a combination of symbols and letters together. It was
+            amazing to see something appear on my screen when I put together the
+            right combination of keystrokes! My eyes got wide with wonder&hellip; I felt
+            proud of what I had designed and created making me want to show it off.
+            After this experience I did not pursue development for 11 years.
           </p>
           <p className="white">
-            All those years I maintained an itch to learn more about development and I would
-            dabble, but it wouldn't pay the bills so it was low on my priority list. I had several jobs
-            in the financial sector including banking, financial advisor, and insurance sales.
-            While I was good at these jobs and my managers and co-workers praised my work, I was
-            never really happy with what I was doing. All the while I had that itch about development,
-            so I decided to do something about it.
+            Through those years, I maintained the itch to learn more about development,
+            but unfortunately it did not pay the bills putting it low on the priority
+            list. I have had several jobs in the financial sector including banking,
+            financial advisor, and insurance sales. While I was very good at these jobs
+            and my managers and co-workers praised my work, I was never really
+            happy with what I was doing. All the while I had been dabbling in
+            online workshops for coding, and finally I decided to do something about
+            my inner desire and professional happiness.
           </p>
           <p className="white">
-            In September 2016 I decided to do something about it and enrolled in the Iron Yard’s
-            immersive coding academy. In a span of 3 months I went from minimal coding experience
-            to building complex applications using different languages and frameworks. My passion
-            for coding erupted and I not only learned those languages but I was taught how to
-            learn more coding languages. I know how to check the documentation, how to debug
-            my software, and how to ask the better questions that will help me solve programming
-            problems. These skills, along with the soft skills I’ve picked up throughout my
-            professional career make me diamond in the rough that’s waiting to be polished and I'm
-            currently looking for a company that is willing to take a chance on me and help me
-            grow and develop so I can help them.
+            In September 2016, I decided to take the plunge and enrolled in the
+            Iron Yard’s immersive coding academy. In a span of 3 months I went
+            from minimal coding experience to building complex applications using
+            multiple languages and frameworks. My passion for coding erupted and I
+            not only learned multiple languages but I was taught the process of
+            learning more coding languages. I know how to check documentation, how
+            to debug software, and how to ask better questions that will help me
+            solve programming problems. These skills, along with the soft skills
+            I’ve picked up throughout my professional career make me a diamond in
+            the rough that’s waiting to be polished.  I am currently looking for a
+            company that needs a rounded programmer with both soft and hard skills
+            that they can grow and develop in order to help the company grow in the
+            greatest possible way.
           </p>
         </div>
       </div>
