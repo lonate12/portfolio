@@ -4,8 +4,7 @@ var CubeLink = require('./presentation/cubeLink.jsx');
 var ContactContainer3 = React.createClass({
   render: function(){
     return (
-      <div id="contact">
-        <div className="row">
+      <div id="contact" className="row">
           <h1 className="contact-header white text-center">Contact</h1>
           <div className="col-md-4">
             <a className="contact-link" href="mailto:luisreneonate@gmail.com">
@@ -31,7 +30,6 @@ var ContactContainer3 = React.createClass({
             </a>
             <h2 className="text-center white">GitHub</h2>
           </div>
-        </div>
       </div>
     );
   }

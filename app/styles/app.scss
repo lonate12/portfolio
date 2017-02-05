@@ -339,13 +339,9 @@ $black: #000000;
 
 #contact{
   min-height: calc(100vh - 50px);
-
-  .row{
-    background-image: url('../images/the-babies.jpg');
-    background-size: cover;
-    box-shadow: 0 -3px 8px rgba(0,0,0,.5);
-    height: calc(100vh - 50px);
-  }
+  background-image: url('../images/the-babies.jpg');
+  background-size: cover;
+  box-shadow: 0 -3px 8px rgba(0,0,0,.5);
 
   .contact-header{
     margin: 10vh 0 20vh 0;
@@ -406,6 +402,10 @@ $black: #000000;
       display: block;
     }
 
+    .btn{
+      white-space: normal;
+    }
+
     .project{
       height: auto;
       transition: none;
@@ -424,5 +424,12 @@ $black: #000000;
       border-bottom: 1px solid $grey;
     }
 
+    .tech-div{
+      margin-bottom: 10px;
+    }
+  }
+
+  #contact{
+    min-height: calc(-50px);
   }
 }

@@ -3,7 +3,7 @@ var React = require('react');
 var AboutContainer = React.createClass({
   render: function(){
     return (
-      <div id="about" className="fs-container red row">
+      <div id="about" className="fs-container row">
         <div className="col-xs-12 col-md-6 headshot-div">
           <img className="headshot" src="images/headshot.jpg"></img>
           <div className="tech-skills col-xs-12 col-md-10 col-md-offset-1">
