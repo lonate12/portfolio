@@ -12,6 +12,15 @@ var AboutContainer = React.createClass({
               <div className="tech-tool">HTML5</div>
               <div className="tech-tool">CSS3</div>
               <div className="tech-tool">JavaScript</div>
+              <div className="tech-tool">React.js</div>
+              <div className="tech-tool">Backbone.js</div>
+              <div className="tech-tool">jQuery.js</div>
+              <div className="tech-tool">Handlebars.js</div>
+              <div className="tech-tool">Underscore.js</div>
+              <div className="tech-tool">Bootstrap</div>
+              <div className="tech-tool">SASS</div>
+              <div className="tech-tool">Git</div>
+              <div className="tech-tool">GitHub</div>
             </div>
           </div>
         </div>

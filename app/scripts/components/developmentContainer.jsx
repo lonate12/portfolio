@@ -50,8 +50,9 @@ var DevelopmentContainer = React.createClass({
               <div className="tech-div">
                 {techsStarWars}
               </div>
-              <a className="col-xs-4 col-xs-offset-1 btn btn-success" href="">Source Code</a>
-              <a className="col-xs-4 col-xs-offset-2 btn btn-success" href="">Live Project</a>
+              <a className="col-xs-4 col-xs-offset-1 btn btn-success" href="https://github.com/lonate12/3.4-js-word-game" target="_blank">Source Code</a>
+              <a className="col-xs-4 col-xs-offset-2 btn btn-success" href="https://lonate12.github.io/3.4-js-word-game/" target="_blank">Live Project</a>
+              <i className="fa fa-arrow-down pull-right" aria-hidden="true"></i>
             </div>
           </div>
           <div className="col-md-12 project github">
@@ -64,8 +65,9 @@ var DevelopmentContainer = React.createClass({
               <div className="tech-div">
                 {techsGitHub}
               </div>
-              <a className="col-xs-4 col-xs-offset-1 btn btn-success" href="">Source Code</a>
-              <a className="col-xs-4 col-xs-offset-2 btn btn-success" href="">Live Project</a>
+              <a className="col-xs-4 col-xs-offset-1 btn btn-success" href="https://github.com/lonate12/4.4-github-knockoff" target="_blank">Source Code</a>
+              <a className="col-xs-4 col-xs-offset-2 btn btn-success" href="https://lonate12.github.io/4.4-github-knockoff/" target="_blank">Live Project</a>
+              <i className="fa fa-arrow-down pull-right" aria-hidden="true"></i>
             </div>
           </div>
           <div className="col-md-12 project the-standings">
@@ -79,8 +81,9 @@ var DevelopmentContainer = React.createClass({
               <div className="tech-div">
                 {techsTheStandings}
               </div>
-              <a className="col-xs-4 col-xs-offset-1 btn btn-success" href="">Source Code</a>
-              <a className="col-xs-4 col-xs-offset-2 btn btn-success" href="">Live Project</a>
+              <a className="col-xs-4 col-xs-offset-1 btn btn-success" href="https://github.com/lonate12/tournament-management-app" target="_blank">Source Code</a>
+              <a className="col-xs-4 col-xs-offset-2 btn btn-success" href="https://lonate12.github.io/tournament-management-app/" target="_blank">Live Project</a>
+              <i className="fa fa-arrow-down pull-right" aria-hidden="true"></i>
             </div>
           </div>
         </div>

@@ -69,10 +69,6 @@ $black: #000000;
 
   .main-img-container{
     min-height: calc(100vh - 82px);
-    // background-image: url('https://unsplash.it/g/1170/513/?blur');
-    // background-position: center center;
-    // background-size: cover;
-    // background-color: $grey;
     height: 100%;
   }
 
@@ -87,8 +83,11 @@ $black: #000000;
   }
 
   .tagline{
-    color: $orange;
+    color: lighten($orange, .4);
     text-align: center;
+    font-size: 3em;
+    padding: 10px 20px;
+    font-family: 'Sahitya', 'serif';
   }
 
   .logo-large{
@@ -101,7 +100,7 @@ $black: #000000;
 .top-bar{
   background-color: $black;
   position: relative;
-  height: 80px;
+  height: 82px;
 
   .logo-small{
     width: 60px;
@@ -198,10 +197,8 @@ $black: #000000;
   .tech-skills{
     position: absolute;
     bottom: 10px;
-    height: 40%;
+    min-height: 30%;
     background-color: $orange;
-    // border-top-left-radius: 12px;
-    // border-top-right-radius: 12px;
     border-radius: 12px;
   }
 
@@ -211,6 +208,7 @@ $black: #000000;
 
   .tech-list{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
   }
 
@@ -262,10 +260,14 @@ $black: #000000;
   .project-description{
     height: 100%;
     overflow-y: scroll;
-    // overflow: clip;
-    // white-space: nowrap;
-    // text-overflow: ellipsis;
     background-color: white;
+    position: relative;
+  }
+
+  .fa{
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
   }
 
   .star-wars{
@@ -284,7 +286,8 @@ $black: #000000;
   }
 
   .project:hover{
-    transform: scale(1.5);
+    transform: scale(1.8);
+    // height: 50vh;
     z-index: 5;
     border: 3px solid $orange;
     border-radius: 6px;
@@ -331,7 +334,6 @@ $black: #000000;
   .tech{
     width: 33.33%;
     text-align: center;
-    // flex: 1;
   }
 
   .technologies-used{
@@ -394,14 +396,28 @@ $black: #000000;
   }
 
   #about{
+    padding-top: 82px;
+
     .tech-skills{
       position: static;
       padding-bottom: 30px;
       margin-bottom: 30px;
     }
+
+    .tech-tool{
+      width: 50%;
+      padding: 5px 0;
+      font-weight: bold;
+      font-size: 1.2em;
+      font-family: 'Sahitya', 'serif';
+    }
   }
 
   #projects{
+    .fa{
+      display: none;
+    }
+
     .project-image-container{
       margin-bottom: 30px;
     }
@@ -435,10 +451,15 @@ $black: #000000;
     .tech-div{
       margin-bottom: 10px;
     }
+
+    .tech{
+      width: 50%;
+    }
   }
 
   #contact{
     min-height: calc(-50px);
+    padding-top: 82px;
 
     .contact-header{
       margin-bottom: 10vh;
