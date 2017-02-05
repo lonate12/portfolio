@@ -12,7 +12,7 @@ var ContactContainer3 = React.createClass({
                 <i className="fa fa-envelope-o" aria-hidden="true"></i>
               </div>
             </a>
-            <h2 className="text-center white">Email</h2>
+            <h2 className="text-center white">luisreneonate@gmail.com</h2>
           </div>
           <div className="col-md-4">
             <a className="contact-link" href="https://www.linkedin.com/in/luisreneonate" target="_blank">
