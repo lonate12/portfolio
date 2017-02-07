@@ -5791,7 +5791,7 @@ p, a {
   .banner .main-img-container {
     min-height: calc(100vh - 82px);
     height: 100%; }
-  .banner .fa-chevron-down {
+  .banner .catchphrase-div {
     font-size: 30px;
     position: absolute;
     bottom: 10px;
@@ -5800,11 +5800,14 @@ p, a {
     text-align: center;
     color: #FFFFFF; }
   .banner .tagline {
-    color: #a45116;
+    color: #e37324;
     text-align: center;
     font-size: 3em;
     padding: 10px 20px;
     font-family: 'Sahitya', 'serif'; }
+  .banner .catchphrase {
+    font-family: 'Sahitya', 'serif';
+    font-size: 1em; }
   .banner .logo-large {
     display: block;
     margin: 0px auto;
@@ -5891,6 +5894,11 @@ p, a {
   background-position: top right;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
   margin-bottom: 30px; }
+  #about p:first-of-type {
+    padding-top: 2em; }
+  #about .about {
+    font-size: 1.4em;
+    padding: .3em; }
   #about .headshot {
     width: 260px;
     border: 8px solid white;
@@ -5907,10 +5915,11 @@ p, a {
     position: absolute;
     bottom: 10px;
     min-height: 30%;
-    background-color: #A25016;
+    background-color: #E37222;
     border-radius: 12px; }
   #about .tech-toolbox-header {
-    border-bottom: 2px solid #FFFFFF; }
+    border-bottom: 2px solid #602f0c;
+    color: #602f0c; }
   #about .tech-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5920,19 +5929,30 @@ p, a {
     width: 100%; }
   #about .tech-tool {
     width: 33%;
-    color: #FFFFFF;
+    color: #602f0c;
     font-family: 'Lora', serif;
-    text-align: center; }
+    text-align: center;
+    font-size: 1.2em; }
+
+#segue .segue-div {
+  background-color: #FFFFFF;
+  border: 5px solid #E37222;
+  border-radius: 6px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  min-height: 90vh;
+  margin-bottom: 35px; }
 
 #projects {
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  margin-top: 20vh; }
   #projects .btn {
     white-space: normal; }
   #projects .project-image-container {
     min-height: 100vh;
     background-image: url("../images/project-image-example.jpg");
     background-size: cover;
-    background-position: center center; }
+    background-position: center center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5); }
   #projects .projects-header {
     font-size: 60px; }
   #projects .projects-header:first-child {
@@ -5952,12 +5972,14 @@ p, a {
   #projects .project {
     height: 30vh; }
   #projects .project-thumbnail {
-    height: 100%; }
+    height: 100%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5); }
   #projects .project-description {
     height: 100%;
     overflow-y: scroll;
     background-color: white;
-    position: relative; }
+    position: relative;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5); }
   #projects .fa {
     position: absolute;
     bottom: 2px;
@@ -5981,17 +6003,17 @@ p, a {
     -webkit-transform: scale(1.8);
             transform: scale(1.8);
     z-index: 5;
-    border: 3px solid #A25016;
+    border: 3px solid #E37222;
     border-radius: 6px;
     padding: 0; }
   #projects .btn-success {
     background-color: transparent;
-    border: 3px solid #A25016;
+    border: 3px solid #E37222;
     margin-bottom: 20px;
     color: inherit;
     padding: 6px; }
   #projects .btn-success:hover {
-    background-color: #A25016;
+    background-color: #E37222;
     color: #FFFFFF; }
   #projects .star-wars-wg-thumbnail {
     background-image: url("../images/star-wars-screenshot.png");
@@ -6030,10 +6052,11 @@ p, a {
     font-size: 60px; }
   #contact .fa {
     font-size: 40px;
-    color: white;
+    color: #602f0c;
     padding: 30px;
-    background-color: #A25016;
+    background-color: #E37222;
     border-radius: 100px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
     -webkit-transition: all .25s ease-out;
     transition: all .25s ease-out; }
   #contact .fa:hover {
