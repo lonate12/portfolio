@@ -402,6 +402,20 @@ $black: #000000;
 }
 
 @media only screen and (max-width: 991px){
+
+  .top-bar-nav{
+    flex-wrap: wrap;
+
+    .social-link{
+      flex: 1;
+      font-size: 1.2em;
+    }
+
+    .normal-link, .social-link{
+      text-align: center;
+    }
+  }
+
   .logo-small{
     display: none;
   }
