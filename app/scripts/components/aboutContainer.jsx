@@ -21,6 +21,8 @@ var AboutContainer = React.createClass({
               <div className="tech-tool">SASS</div>
               <div className="tech-tool">Git</div>
               <div className="tech-tool">GitHub</div>
+              <div className="tech-tool">RESTful APIs</div>
+              <div className="tech-tool">Parse</div>
             </div>
           </div>
         </div>
