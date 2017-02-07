@@ -23,6 +23,7 @@ var AboutContainer = React.createClass({
               <div className="tech-tool">GitHub</div>
               <div className="tech-tool">RESTful APIs</div>
               <div className="tech-tool">Parse</div>
+              <div className="tech-tool">Mobile optimization</div>
             </div>
           </div>
         </div>
