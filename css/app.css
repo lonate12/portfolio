@@ -5932,7 +5932,8 @@ p, a {
     color: #602f0c;
     font-family: 'Lora', serif;
     text-align: center;
-    font-size: 1.2em; }
+    font-size: 1.2em;
+    padding: 5px 0; }
 
 #segue .segue-div {
   background-color: #FFFFFF;
@@ -6158,4 +6159,5 @@ p, a {
     width: 100px; }
   .banner .tagline {
     font-size: 2.3em; } }
+
 /*# sourceMappingURL=app.css.map */
