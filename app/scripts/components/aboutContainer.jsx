@@ -25,41 +25,26 @@ var AboutContainer = React.createClass({
           </div>
         </div>
         <div className="col-md-6">
-          <h1 className="white">There was once a guy who wasn't happy with what he was doing&hellip;</h1>
-          <p className="white">
-            The beginning&hellip; One day in my college English class I downloaded
-            SeaMonkey to create a portfolio site. After using Google to help
-            learn this application, I learned that I could customize my site by
-            simply putting a combination of symbols and letters together. It was
-            amazing to see something appear on my screen when I put together the
-            right combination of keystrokes! My eyes got wide with wonder&hellip; I felt
-            proud of what I had designed and created making me want to show it off.
-            After this experience I did not pursue development for 11 years.
+          <h1 className="white">I have always strived to constantly learn new skills
+            and pushed forward in my abilities to offer a well rounded person&hellip;
+          </h1>
+          <p className="about white">
+            My previous jobs in the banking, financial and insurance sectors
+            taught the skills necessary to provide proper customer service,
+            give knowledgable advice and sell not only an product but also an idea.
           </p>
-          <p className="white">
-            Through those years, I maintained the itch to learn more about development,
-            but unfortunately it did not pay the bills putting it low on the priority
-            list. I have had several jobs in the financial sector including banking,
-            financial advisor, and insurance sales. While I was very good at these jobs
-            and my managers and co-workers praised my work, I was never really
-            happy with what I was doing. All the while I had been dabbling in
-            online workshops for coding, and finally I decided to do something about
-            my inner desire and professional happiness.
+          <p className="about white">
+            These jobs coupled with my education, which culminated with a Masters of Marketing
+            from Clemson University, only bolstered the inherent abilities that I possess.
+            However, this was mediocre to what I could truly do.
           </p>
-          <p className="white">
-            In September 2016, I decided to take the plunge and enrolled in the
-            Iron Yard’s immersive coding academy. In a span of 3 months I went
-            from minimal coding experience to building complex applications using
-            multiple languages and frameworks. My passion for coding erupted and I
-            not only learned multiple languages but I was taught the process of
-            learning more coding languages. I know how to check documentation, how
-            to debug software, and how to ask better questions that will help me
-            solve programming problems. These skills, along with the soft skills
-            I’ve picked up throughout my professional career make me a diamond in
-            the rough that’s waiting to be polished.  I am currently looking for a
-            company that needs a rounded programmer with both soft and hard skills
-            that they can grow and develop in order to help the company grow in the
-            greatest possible way.
+          <p className="about white">
+            I challenged myself further, building on my minimal coding experience,
+            by completing the coding academy at the Iron Yard. This immersive
+            program taught me to rapidly problem solve, debug software and use
+            multiple coding languages to get the result that was needed.
+            As I am looking for a job in the development field, I want a company
+            that will challenge me as I challenge myself.
           </p>
         </div>
       </div>

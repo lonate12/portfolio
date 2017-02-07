@@ -5,6 +5,7 @@ var Footer = require('./presentation/footer.jsx');
 var AboutContainer = require('./aboutContainer.jsx').AboutContainer;
 var DevelopmentContainer = require('./developmentContainer.jsx').DevelopmentContainer;
 var ContactContainer3 = require('./contactContainer3.jsx').ContactContainer3;
+var SegueDiv = require('./segueDiv.jsx').SegueDiv;
 
 var HomeContainer = React.createClass({
   render: function(){
@@ -18,8 +19,9 @@ var HomeContainer = React.createClass({
             <i className="chevron fa fa-chevron-down" aria-hidden="true"></i>
           </div>
         </header>
-        <AboutContainer />
+        <SegueDiv />
         <DevelopmentContainer />
+        <AboutContainer />
         <ContactContainer3 />
         <Footer />
       </div>

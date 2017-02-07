@@ -33,7 +33,7 @@ var theStandings = {
   "Guests of the teams can also keep track of their team's progress, scores, and game locations.",
   description3: "Overall, 'The Standings' is my first robust web application that will be tested " +
   "and used by the Clemson Club Soccer Team.",
-  tech: ["HTML5", "CSS3", "JavaScript", "React.js", "Backbone.js", "SASS", "Bootstrap", "Git", "GitHub"]
+  tech: ["HTML5", "CSS3", "JavaScript", "jQuery", "React.js", "Backbone.js", "SASS", "Bootstrap", "Git", "GitHub"]
 };
 
 module.exports = {
