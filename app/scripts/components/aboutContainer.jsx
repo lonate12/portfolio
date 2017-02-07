@@ -26,7 +26,7 @@ var AboutContainer = React.createClass({
         </div>
         <div className="col-md-6">
           <h1 className="white">I have always strived to constantly learn new skills
-            and pushed forward in my abilities to offer a well rounded person&hellip;
+            and push forward my abilities to offer a well rounded person&hellip;
           </h1>
           <p className="about white">
             My previous jobs in the banking, financial and insurance sectors
