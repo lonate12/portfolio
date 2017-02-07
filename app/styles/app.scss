@@ -407,7 +407,7 @@ $black: #000000;
     flex-wrap: wrap;
 
     .social-link{
-      flex: 1;
+      flex: .8;
       font-size: 1.2em;
     }
 
@@ -526,3 +526,21 @@ $black: #000000;
     display: none;
   }
 }
+
+ @media only screen and (max-width: 480px) {
+   .top-bar-nav{
+     .normal-link{
+       font-size: .8em;
+     }
+   }
+
+   .banner{
+     .logo-large{
+       width: 100px;
+     }
+
+     .tagline{
+       font-size: 2.3em;
+     }
+   }
+ }
