@@ -33,7 +33,7 @@ p, a {
 // Color Palette
 $grey: #44454A;
 $gold: #877350;
-$orange: #A25016;
+$orange: #E37222;
 $white: #FFFFFF;
 $black: #000000;
 
@@ -72,7 +72,7 @@ $black: #000000;
     height: 100%;
   }
 
-  .fa-chevron-down{
+  .catchphrase-div{
     font-size: 30px;
     position: absolute;
     bottom: 10px;
@@ -88,6 +88,11 @@ $black: #000000;
     font-size: 3em;
     padding: 10px 20px;
     font-family: 'Sahitya', 'serif';
+  }
+
+  .catchphrase{
+    font-family: 'Sahitya', 'serif';
+    font-size: 1em;
   }
 
   .logo-large{
@@ -212,7 +217,8 @@ $black: #000000;
   }
 
   .tech-toolbox-header{
-    border-bottom: 2px solid $white;
+    border-bottom: 2px solid darken($orange, 30%);
+    color: darken($orange, 30%);
   }
 
   .tech-list{
@@ -223,9 +229,10 @@ $black: #000000;
 
   .tech-tool{
     width: 33%;
-    color: $white;
+    color: darken($orange, 30%);
     font-family: 'Lora', serif;
     text-align: center;
+    font-size: 1.2em;
   }
 }
 
@@ -242,6 +249,7 @@ $black: #000000;
 
 #projects{
   padding-bottom: 30px;
+  margin-top: 20vh;
 
   .btn{
     white-space: normal;
@@ -379,10 +387,11 @@ $black: #000000;
 
   .fa{
     font-size: 40px;
-    color: white;
+    color: darken($orange, 30%);
     padding: 30px;
     background-color: $orange;
     border-radius: 100px;
+    box-shadow: 0 3px 6px rgba(0,0,0,.5);
     transition: all .25s ease-out;
   }
 

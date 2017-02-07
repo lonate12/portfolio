@@ -8,8 +8,8 @@ var NavBar = React.createClass({
         <p className={this.props.isFooter? "copyright" : "hide"}>&copy; 2017 Luis Rene Onate</p>
         <ul className="top-bar-nav">
           <li className="normal-link"><a href="#">Home</a></li>
-          <li className="normal-link"><a href="#about">About</a></li>
           <li className="normal-link"><a href="#projects">Projects</a></li>
+          <li className="normal-link"><a href="#about">About</a></li>
           <li className="normal-link"><a href="#contact">Contact</a></li>
           <li className="social-link">
             <a target="_blank" href="https://www.linkedin.com/in/luisreneonate">

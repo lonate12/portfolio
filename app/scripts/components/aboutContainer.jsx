@@ -31,7 +31,7 @@ var AboutContainer = React.createClass({
           <p className="about white">
             My previous jobs in the banking, financial and insurance sectors
             taught the skills necessary to provide proper customer service,
-            give knowledgable advice and sell not only an product but also an idea.
+            give knowledgable advice and sell not only a product but also an idea.
           </p>
           <p className="about white">
             These jobs coupled with my education, which culminated with a Masters of Marketing
