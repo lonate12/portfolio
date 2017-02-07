@@ -6068,9 +6068,9 @@ p, a {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
     .top-bar-nav .social-link {
-      -webkit-box-flex: 1;
-          -ms-flex: 1;
-              flex: 1;
+      -webkit-box-flex: .8;
+          -ms-flex: .8;
+              flex: .8;
       font-size: 1.2em; }
     .top-bar-nav .normal-link, .top-bar-nav .social-link {
       text-align: center; }
@@ -6150,5 +6150,13 @@ p, a {
 
   .footer-nav .top-bar-nav {
     display: none; } }
+@media only screen and (max-width: 480px) {
+  .top-bar-nav .normal-link {
+    font-size: .8em; }
+
+  .banner .logo-large {
+    width: 100px; }
+  .banner .tagline {
+    font-size: 2.3em; } }
 
 /*# sourceMappingURL=app.css.map */
