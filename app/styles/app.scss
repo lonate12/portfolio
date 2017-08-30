@@ -37,16 +37,62 @@ $orange: #E37222;
 $white: #FFFFFF;
 $black: #000000;
 
-// Fonts
-// @font-face {
-//   font-family: 'Istok Web', sans-serif;
-//   name: 'Istok';
-// }
-//
-// @font-face {
-//   font-family: 'Lora', serif;
-//   name: 'Lora';
-// }
+// New Styles for disappearing overlay
+.tile-container {
+  background-color: #2F2F31;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  .tile {
+    background-color: #2F2F31;
+    color: white;
+  }
+
+  .image {
+    background: url('https://unsplash.it/200/200') center/cover;
+    position: relative;
+    min-height: 200px;
+  }
+
+  .cover-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+
+  .links-container {
+    margin-top: 10px;
+  }
+
+  .overlay {
+    opacity: 0;
+    transition: all .2s ease-out;
+    background-color: rgba(68, 68, 68, .90);
+    color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+  }
+
+  .description {
+    padding-top: 15px;
+  }
+
+  .title {
+    padding: 10px 5px;
+    background-color: #2F2F31;
+  }
+}
+
+.image:hover .overlay {
+  opacity: 1;
+}
 
 // Custom helper classes
 
@@ -339,7 +385,12 @@ $black: #000000;
     color: $white;
   }
 
-  .star-wars-wg-thumbnail{
+  .thumbnail {
+    background-position: top;
+    background-size: cover;
+  }
+
+  .star-wars-wg{
     background-image: url('../images/star-wars-screenshot.png');
     background-size: contain;
     background-position: center;
@@ -347,14 +398,12 @@ $black: #000000;
     background-color: $black;
   }
 
-  .github-replica-thumbnail{
+  .github-replica{
     background-image: url('../images/github-screenshot.png');
-    background-size: cover;
   }
 
-  .the-standings-thumbnail{
+  .the-standings{
     background-image: url('../images/the-standings-screenshot.png');
-    background-size: cover;
   }
 
   .tech-div{

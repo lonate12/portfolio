@@ -3,17 +3,6 @@ var $ = require('jquery');
 var descriptions = require('../projectDescriptions.js');
 
 var DevelopmentContainer = React.createClass({
-  // noScroll: function(e){
-  //   // Function adapted from https://jsbin.com/howojuq/edit?html,js,output
-  //   $(e.target).on( 'mousewheel DOMMouseScroll', function (e) {
-  //
-  //     var e0 = e.originalEvent;
-  //     var delta = e0.wheelDelta || -e0.detail;
-  //
-  //     this.scrollTop += ( delta < 0 ? 1 : -1 );
-  //     e.preventDefault();
-  //   });
-  // },
   render: function(){
     var techsStarWars = descriptions.starWars.tech.map(function(tech){
       return(
