@@ -6,11 +6,11 @@ var ProjectTile = require('./projectTile.jsx');
 var CopyDevelopmentContainer = React.createClass({
   render: function(){
     var projectTiles = descriptions.map(function(project, i){
-      if ((i+1)%descriptions.length != 0 && i+1 === descriptions.length){
+      if (descriptions.length % 2 != 0 && (i+1) === descriptions.length){
         return <ProjectTile project={project} key={i} last={true} />;
       } else {
         return (
-          <ProjectTile project={project} key={i}/>
+          <ProjectTile project={project} key={i} last={false}/>
         );
       }
     });
@@ -21,7 +21,7 @@ var CopyDevelopmentContainer = React.createClass({
           <h1 className="text-center projects-header">Previous</h1>
           <h1 className="text-center projects-header">Projects</h1>
         </div>
-          {projectTiles}
+        {projectTiles}
       </div>
     );
   }
