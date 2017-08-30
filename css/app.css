@@ -5777,6 +5777,47 @@ h1, h2, h3, h4, h5, h6 {
 p, a {
   font-family: 'Lora', serif; }
 
+.tile-container {
+  background-color: #2F2F31;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  .tile-container .tile {
+    background-color: #2F2F31;
+    color: white; }
+  .tile-container .image {
+    background: url("https://unsplash.it/200/200") center/cover;
+    position: relative;
+    min-height: 200px; }
+  .tile-container .cover-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2; }
+  .tile-container .links-container {
+    margin-top: 10px; }
+  .tile-container .overlay {
+    opacity: 0;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    background-color: rgba(68, 68, 68, 0.9);
+    color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: scroll; }
+  .tile-container .description {
+    padding-top: 15px; }
+  .tile-container .title {
+    padding: 10px 5px;
+    background-color: #2F2F31; }
+
+.image:hover .overlay {
+  opacity: 1; }
+
 .white {
   color: #FFFFFF; }
 
@@ -6016,18 +6057,19 @@ p, a {
   #projects .btn-success:hover {
     background-color: #E37222;
     color: #FFFFFF; }
-  #projects .star-wars-wg-thumbnail {
+  #projects .thumbnail {
+    background-position: top;
+    background-size: cover; }
+  #projects .star-wars-wg {
     background-image: url("../images/star-wars-screenshot.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #000000; }
-  #projects .github-replica-thumbnail {
-    background-image: url("../images/github-screenshot.png");
-    background-size: cover; }
-  #projects .the-standings-thumbnail {
-    background-image: url("../images/the-standings-screenshot.png");
-    background-size: cover; }
+  #projects .github-replica {
+    background-image: url("../images/github-screenshot.png"); }
+  #projects .the-standings {
+    background-image: url("../images/the-standings-screenshot.png"); }
   #projects .tech-div {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -6159,5 +6201,4 @@ p, a {
     width: 100px; }
   .banner .tagline {
     font-size: 2.3em; } }
-
 /*# sourceMappingURL=app.css.map */
