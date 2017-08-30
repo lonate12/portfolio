@@ -36,6 +36,13 @@ var data = [
     thumbnail: "the-standings",
     liveLink: "https://lonate12.github.io/tournament-management-app/",
     sourceLink: "https://github.com/lonate12/tournament-management-app"
+  },{
+    name: "Los Menu Editor",
+    description: ["Placeholder"],
+    tech: ["React.js", "Node.js", "Express", "Nginx", "Let's Encrypt", "CertBot"],
+    thumbnail: "los-editor",
+    liveLink: "https://apparentlymysandboxsymphony.com/app/",
+    sourceLink: "https://github.com/lonate12/los-menu-item-app"
   }
 ];
 
