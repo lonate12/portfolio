@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, a {
-  font-family: 'Lora', serif;
+  font-family: 'Sahitya', serif;
 }
 
 // Color Palette
@@ -295,7 +295,7 @@ $black: #000000;
 }
 
 #projects{
-  padding-bottom: 30px;
+  // padding-bottom: 30px;
   margin-top: 20vh;
 
   .btn{
@@ -426,6 +426,14 @@ $black: #000000;
     padding-bottom: 10px;
     border-bottom: 2px solid $grey;
   }
+
+  .learn-link {
+    color: white;
+  }
+
+  .learn-link:hover {
+    color: $orange;
+  }
 }
 
 #contact{
@@ -452,6 +460,75 @@ $black: #000000;
   .fa:hover{
     padding: 40px;
     font-size: 50px;
+  }
+}
+
+.project-container {
+  min-height: calc(100vh - 83px);
+}
+
+.project-detail-container {
+  .project-title {
+    border-bottom: 1px solid white;
+    margin-top: 50px;
+    font-family: 'Sahitya', serif;
+  }
+
+  .tech-header {
+    font-family: 'Sahitya', serif;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+  }
+
+  .project-description-p {
+    font-size: 18px;
+    font-family: 'Istok Web', sans-serif;
+  }
+
+  .star-wars-wg{
+    background-image: url('../images/star-wars-screenshot.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: $black;
+  }
+
+  .github-replica{
+    background-image: url('../images/github-screenshot.png');
+    background-size: cover;
+    // background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+  }
+
+  .the-standings{
+    background-image: url('../images/the-standings-screenshot.png');
+    background-size: cover;
+    // background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+  }
+
+  .los-editor{
+    background-image: url('../images/los-editor.png');
+    background-size: cover;
+    // background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+  }
+
+  .project-detail-image {
+    height: calc(50vh - 83px);
+  }
+
+  .project-tech-container {
+    margin-top: 30px;
+  }
+
+  .tech-logo {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100px;
   }
 }
 

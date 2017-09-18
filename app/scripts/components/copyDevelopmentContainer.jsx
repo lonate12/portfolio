@@ -7,16 +7,16 @@ var CopyDevelopmentContainer = React.createClass({
   render: function(){
     var projectTiles = descriptions.map(function(project, i){
       if (descriptions.length % 2 != 0 && (i+1) === descriptions.length){
-        return <ProjectTile project={project} key={i} last={true} />;
+        return <ProjectTile project={project} key={i} last={true} projectId={i}/>;
       } else {
         return (
-          <ProjectTile project={project} key={i} last={false}/>
+          <ProjectTile project={project} key={i} last={false} projectId={i}/>
         );
       }
     });
 
     return (
-      <div id="projects" className="fs-container row">
+      <div id="projects" className="row">
         <div className="col-md-12 project-image-container">
           <h1 className="text-center projects-header">Previous</h1>
           <h1 className="text-center projects-header">Projects</h1>

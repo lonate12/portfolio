@@ -31,25 +31,25 @@ var AboutContainer = React.createClass({
         </div>
         <div className="col-md-6">
           <h1 className="white">I have always strived to constantly learn new skills
-            and push forward my abilities to offer a well rounded person&hellip;
+            and abilities to offer a well rounded person&hellip;
           </h1>
           <p className="about white">
             My previous jobs in the banking, financial and insurance sectors
-            taught the skills necessary to provide proper customer service,
-            give knowledgable advice and sell not only a product but also an idea.
+            taught me the skills necessary to effectively communicate with different stakeholders,
+            work productively in a team environment, and achieve organization goals.
           </p>
           <p className="about white">
-            These jobs coupled with my education, which culminated with a Masters of Marketing
-            from Clemson University, only bolstered the inherent abilities that I possess.
-            However, this was mediocre to what I could truly do.
+            This experience coupled with my education helped teach me many of the soft skills that are
+            essential to working as part of any organization. However, I was never passionate
+            about any of these jobs the way I was passionate about other things in my life.
+            This led me to exploring new career paths, and this is when I came across development.
           </p>
           <p className="about white">
-            I challenged myself further, building on my minimal coding experience,
-            by completing the coding academy at the Iron Yard. This immersive
+            I decided to take a leap and leave a comfortable job situation to complete
+            the coding academy at the Iron Yard. This immersive
             program taught me to rapidly problem solve, debug software and use
-            multiple coding languages to get the result that was needed.
-            As I am looking for a job in the development field, I want a company
-            that will challenge me as I challenge myself.
+            multiple coding languages to get the results that were needed.
+            I finally find a career path that I can be passionate about!
           </p>
         </div>
       </div>
