@@ -16,7 +16,7 @@ var data = [
     "my abilities to replicate another person's design (i.e. working with a designer's comp) and also " +
     "my ability to make API requests and handle the response JSON data.","In this project I also used Handlebars.js to make stamps of repeating elements " +
     "and Git/GitHub for source control."],
-    tech: ["HTML5", "CSS3", "JavaScript", "jQuery", "Handlebars", "API", "Git", "GitHub"],
+    tech: ["HTML5", "CSS3", "JavaScript", "JQuery", "Handlebars", "API", "Git", "GitHub"],
     thumbnail: "github-replica",
     liveLink: "https://lonate12.github.io/4.4-github-knockoff/",
     sourceLink: "https://github.com/lonate12/4.4-github-knockoff"
@@ -32,13 +32,20 @@ var data = [
     "and keep track of their teams standings within their group as well as the tournament as a whole. " +
     "Guests of the teams can also keep track of their team's progress, scores, and game locations.","Overall, 'The Standings' is my first robust web application that will be tested " +
     "and used by the Clemson Club Soccer Team."],
-    tech: ["HTML5", "CSS3", "JavaScript", "jQuery", "React", "Backbone", "SASS", "Bootstrap", "Git", "GitHub", "API"],
+    tech: ["HTML5", "CSS3", "JavaScript", "JQuery", "React", "Backbone", "SASS", "Bootstrap", "Git", "GitHub", "API"],
     thumbnail: "the-standings",
     liveLink: "https://lonate12.github.io/tournament-management-app/",
     sourceLink: "https://github.com/lonate12/tournament-management-app"
   },{
     name: "Los Menu Editor",
-    description: ["Placeholder"],
+    description: ["Los Amigos Mexican Restaurant in Seneca, SC needed a way to update " +
+    "the menu items on their website. For this project I decided to build an API with Node " +
+    "and Express. The API has routes that allows menu items to be created, deactivated, " +
+    "reactivated, and edited. I then built a front-end using React.js which would consume " +
+    "the API I built. Now Los Amigos is in the process of creating a new website that will make" +
+    "a call to the API to obtain the menu items and display them appropriately. The app sits " +
+    "behind a Nginx proxy server, which is set up to use a Let's Encrypt certificate " +
+    "for SSL encryption."],
     tech: ["React", "Node", "Express", "Nginx", "LetsEncrypt", "CertBot", "API"],
     thumbnail: "los-editor",
     liveLink: "https://apparentlymysandboxsymphony.com/app/",

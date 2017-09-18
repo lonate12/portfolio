@@ -27,10 +27,15 @@ var ProjectDetailContainer = React.createClass({
           <div className={"col-xs-12 white project-detail-image " + this.props.project.thumbnail}></div>
           <div className="col-md-12 white">
             <div className="row project-title-container">
-              <h1 className="white project-title text-center">{this.props.project.name}</h1>
+              <div className="col-xs-12">
+                <h1 className="col-xs-12 white project-title text-center">{this.props.project.name}</h1>
+              </div>
             </div>
             <div className="row project-description-container">
               <div className="col-xs-12">
+                <div className="live-links">
+                  <a href={this.props.project.liveLink} className="btn btn-success pull-right">View Live Project</a>
+                </div>
                 { description }
               </div>
             </div>
